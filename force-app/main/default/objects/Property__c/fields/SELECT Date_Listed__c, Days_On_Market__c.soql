@@ -1,0 +1,3 @@
+SELECT Date_Listed__c, Days_On_Market__c, Price__c
+  FROM Property__c
+  WHERE Price__c < 600000

@@ -1,0 +1,9 @@
+<template>
+    <template if:true={propertyList}>
+       <ul>
+            <template for:each={propertyList.data} for:item="record">
+                <li key={record.Id}>{record.Name}</li>
+            </template>
+        </ul>
+    </template>
+</template>
